@@ -1,0 +1,71 @@
+# Translation of Themes - Orfeo in Indonesian
+# This file is distributed under the same license as the Themes - Orfeo package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-02-04 13:37:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: id\n"
+"Project-Id-Version: Themes - Orfeo\n"
+
+#. Theme Name of the plugin/theme
+msgid "Orfeo"
+msgstr "Orfeo"
+
+#: vendor/codeinwp/themeisle-sdk/class-themeisle-sdk-endpoints.php:299
+msgid "Invalid %"
+msgstr "% tidak valid"
+
+#: vendor/codeinwp/themeisle-sdk/class-themeisle-sdk-endpoints.php:238
+msgid "%s not found"
+msgstr "%s tidak ditemukan"
+
+#. #-#-#-#-#  orfeo.pot (Orfeo 1.0.5)  #-#-#-#-#
+#. Description of the plugin/theme
+#: functions.php:382
+msgid "Orfeo is a responsive WordPress theme with multipurpose design. It is a good fit for both small businesses and corporate businesses, as it is highly customizable via the Live Customizer. You can use Orfeo for restaurants, startups, freelancer resume, creative agencies, portfolios, WooCommerce, or niches like sports, medical, blogging, fashion, lawyer sites etc. It has a one-page design, Sendinblue newsletter integration, widgetized footer, and a clean appearance. The theme is compatible with Elementor Page Builder, Photo Gallery, Flat Parallax Slider, and Travel Map; it is mobile friendly and optimized for SEO."
+msgstr "Orfeo adalah tema WordPress responsif dengan desain serbaguna. Bagus untuk usaha kecil dan usaha besar, sangat dapat disesuaikan lewat Penyesuai Langsung. Anda dapat menggunakan Orfeo untuk restoran, startup, freelancer, resume, agensi kreatif, portofolio, WooCommerce, atau niche seperti olahraga, medis, blogging, fashion, situs pengacara, dll. Memiliki desain one-page, integrasi Sendinblue newsletter, widgetized footer, dan tampilan bersih. Tema ini cocok dengan Elementor Page Builder, Photo Gallery, Flat Parallax Slider, dan Map Travel; bersahabat dengan ponsel dan di optimalkan untuk SEO."
+
+#. translators: s - theme name
+#: functions.php:378
+msgid "Welcome to %s! - Version "
+msgstr "Selamat datang di %s! - Versi"
+
+#: functions.php:369 functions.php:373
+msgid "About Orfeo"
+msgstr "Tentang Orfeo"
+
+#: functions.php:292
+msgid "Read more"
+msgstr "Selengkapnya"
+
+#: functions.php:142
+msgid "First button text"
+msgstr "Teks tombol pertama"
+
+#: functions.php:124 functions.php:144
+msgid "Second button text"
+msgstr "Teks tombol kedua"
+
+#: functions.php:98
+msgid "Second Button URL"
+msgstr "URL tombol kedua"
+
+#: functions.php:73 functions.php:80
+msgid "Second Button text"
+msgstr "Teks Tombol kedua"
+
+#. Author URI of the plugin/theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the plugin/theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the plugin/theme
+msgid "https://themeisle.com/themes/orfeo/"
+msgstr "https://themeisle.com/themes/orfeo/"
