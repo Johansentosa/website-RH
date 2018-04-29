@@ -757,7 +757,7 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.05), -1px 0 0 rgba(0,0,0,0.2); }
 /* ------------------------------------------------------------------------- *
  *  Section: Footer
 /* ------------------------------------------------------------------------- */
-#footer { background: #fff; color: #777; width: 100%; }
+#footer { background: #33aae1; color: #777; width: 100%; }
 #footer a { color: #777; }
 #footer a:hover { color: #ccc; }
 #footer .pad { padding-bottom: 30px; }
@@ -768,7 +768,7 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.05), -1px 0 0 rgba(0,0,0,0.2); }
 
 #footer-widgets{ padding-top: 20px; }
 
-#footer-bottom { background: #33363b; }
+#footer-bottom { background: #33aae1; }
 #footer-bottom .pad { padding-top: 30px; }
 #footer-bottom a { color: #0cf; /* color: rgba(255,255,255,0.7); */ }
 #footer-bottom a:hover { color: #fff; }
@@ -1785,11 +1785,11 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); }
 }
 
 #footer-bottom {
-    background: none repeat scroll 0 0 #fff;
+    background: none repeat scroll 0 0 #33aae1;
 }
 
 #footer-bottom #copyright, #footer-bottom #credit {
-    color: #777;
+    color: #fff;
     font-size: 15px;
     line-height: 1.5em;
 }
@@ -1908,6 +1908,60 @@ h5>a {
 	background-color: rgba(0,153,204,0.9);
 	margin: 0 !important;
 	width: 100%;
+}
+
+#text-footer {
+	color: #fff;
+	margin: 20px 0 !important;
+}
+
+#text-footer>h6 {
+	font-size: 14px;
+	color: #fff;
+	padding: 24px 0 !important;
+}
+
+#text-footer>h5 {
+	font-size: 16px;
+	color: #fff;
+}
+
+#text-footer>h4 {
+	font-size: 18px;
+	color: #fff;
+}
+
+#social-links {
+	padding: 12px 24px!important;
+	margin: 5rem 0 !important;
+}
+
+#social-links>a {
+	padding: 12px 30px!important;
+    font-size: 24px!important;
+    text-decoration: none;
+}
+
+#icon-social {
+	padding: 0 1rem;
+    color: #fff;
+}
+
+#map {
+	margin: 12px 30px!important;
+	width: 300px;
+	height: 180px;
+	background-color: grey;
+}
+
+.lay-opacity,
+.lay-hover-opacity:hover {
+    opacity: 0.60
+}
+
+.lay-opacity-off,
+.lay-hover-opacity-off:hover {
+    opacity: 1
 }
 
 .lay-col,

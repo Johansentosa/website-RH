@@ -48,41 +48,40 @@
 		<?php endif; ?>
 		
 		<section class="container" id="footer-bottom">
-			<div class="container-inner">
-				
-				<a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
-				
-				<div class="pad group">
-					
-					<div class="grid one-half">
-						
-						<?php if ( ot_get_option('footer-logo') ): ?>
-							<img id="footer-logo" src="<?php echo ot_get_option('footer-logo'); ?>" alt="<?php get_bloginfo('name'); ?>">
-						<?php endif; ?>
-						
-						<div id="copyright">
-							<?php if ( ot_get_option( 'copyright' ) ): ?>
-								<p><?php echo ot_get_option( 'copyright' ); ?></p>
-							<?php else: ?>
-								<p><?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'hueman' ); ?></p>
-							<?php endif; ?>
-						</div><!--/#copyright-->
-						
-						<?php if ( ot_get_option( 'credit' ) != 'off' ): ?>
-						<div id="credit">
-							<p><?php _e('Powered by','hueman'); ?> <a href="http://wordpress.org" rel="nofollow">WordPress</a>.</p>
-						</div><!--/#credit-->
-						<?php endif; ?>
-						
-					</div><!--/.pad-->
-					
-					<div class="grid one-half last">	
-						<?php alx_social_links() ; ?>
-					</div>
-				
-				</div>
-				
-			</div><!--/.container-inner-->
+			<div class="lay-third" id="text-footer">
+				<h4>ITB - Jatinangor. Gedung LABTEK 1A</h4>
+				<h5>Telepon: xxxxxxx</h5>
+				<h5>Fax: xxxxxxx</h5>
+				<h5>Email: xxxxxxx</h5>
+				<h6>Institut Teknologi Bandung &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'hueman' ); ?></h6>
+            </div>
+            <div class="lay-third" id="social-links">
+            	<a href="#">
+					<i class="fa fa-facebook lay-hover-opacity" id="icon-social"></i>
+				</a>
+				<a href="#">
+					<i class="fa fa-twitter lay-hover-opacity" id="icon-social"></i>
+				</a>
+				<a href="#">
+					<i class="fa fa-instagram lay-hover-opacity" id="icon-social"></i>
+				</a>
+            </div>
+            <div class="lay-third" id="map">
+            	<script>
+			      function initMap() {
+			        var uluru = {lat: -6.928894, lng: 107.768387};
+			        var map = new google.maps.Map(document.getElementById('map'), {
+			          zoom: 15,
+			          center: uluru
+			        });
+			        var marker = new google.maps.Marker({
+			          position: uluru,
+			          map: map
+			        });
+			      }
+			    </script>
+			    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDY0UYkMfSUZEjXXH-rzm-4qrExorm9Yio&callback=initMap"></script>
+            </div>			
 		</section><!--/.container-->
 		
 	</footer><!--/#footer-->
