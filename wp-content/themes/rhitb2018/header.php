@@ -8,7 +8,7 @@
 	<title><?php wp_title(''); ?></title>
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">	
-	<link rel='stylesheet' href='http://ditsti.itb.ac.id/wp-content/themes/itb-new-2015-update/bootstrap.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./wp-content/themes/rhitb2018/bootstrap.css' type='text/css' media='all' />
 	<?php wp_head(); ?>
 </head>
 
@@ -72,7 +72,9 @@
 		
 	</header><!--/#header-->
 	
-	<div class="container" id="page">
+	<?php if (!is_page('Home')): ?>
+	<div class="containerall" id="page">
 		<div class="container-inner">
-			<div class="main">
-				<div class="main-inner group">
+			<div class="main"><!-- 
+				<div class="main-inner group"> -->
+	<?php endif; ?>			
