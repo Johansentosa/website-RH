@@ -67,8 +67,7 @@
 						<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'header','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>
 					</nav><!--/#nav-header-->
 				<?php endif; ?>
-
-				<img src="https://multisite.itb.ac.id/sarjanarekayasahayati/wp-content/uploads/sites/166/2018/02/010-e1517790256521-768x376.jpg" style="width: 100%;">
+				<?php echo do_shortcode('[wonderplugin_slider id=2]'); ?>
 				
 			</div><!--/.container-inner-->
 		</div><!--/.container-->
