@@ -34,20 +34,19 @@
 						</div>
 						
 						<?php
+						if ( is_active_sidebar( 'header-widget' ) ) : ?>
+							<div id="header-widget-area" class="hw-widget widget-area" role="complementary">
+							<?php dynamic_sidebar( 'header-widget' ); ?>
+							</div>
 
-							if ( is_active_sidebar( 'header-widget' ) ) : ?>
-								<div id="header-widget-area" class="hw-widget widget-area" role="complementary">
-								<?php dynamic_sidebar( 'header-widget' ); ?>
-								</div>
-
-							<?php endif; ?>
+						<?php endif; ?>
 					</div><!--/.container-inner-->
 				</div><!--/.container-->
 				
 			</nav><!--/#nav-topbar-->
 		<?php endif; ?>
 		
-		<div class="container group">
+		<div class="container group" id="before-navbar">
 			<div class="container-inner">
 				
 				<div class="group pad">
@@ -56,7 +55,11 @@
                     <!--<h1 class="site-title titlepad">Megatron ITB - under construction</h1>
                     <h2>Institut Teknologi Bandung</h2>-->
 				</div>
-				
+			</div>
+		</div>
+
+		<div class="container group" id="after-navbar">
+			<div class="container-inner">
 				<?php if (has_nav_menu('header')): ?>
 					<nav class="nav-container group" id="nav-header">
 						<div class="nav-toggle"><i class="fa fa-bars"></i></div>

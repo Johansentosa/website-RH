@@ -1674,7 +1674,7 @@ body.ie8,
 }
 
 #header {
-    background: none repeat scroll 0 0 #09c;
+    background: none repeat scroll 0 0;
     /*margin-bottom: 20px;*/
     position: relative;
 }
@@ -1896,6 +1896,18 @@ h5>a {
 	font-size: 26px !important;
 	padding: 8px 0;
 	color: #fff;
+}
+
+#before-navbar {
+	background-color: rgb(0,153,204);
+	margin: 0 !important;
+	width: 100%;
+}
+
+#after-navbar {
+	background-color: rgba(0,153,204,0.9);
+	margin: 0 !important;
+	width: 100%;
 }
 
 .lay-col,
