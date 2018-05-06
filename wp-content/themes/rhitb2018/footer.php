@@ -56,15 +56,24 @@
 				<h6>Institut Teknologi Bandung &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'hueman' ); ?></h6>
             </div>
             <div class="lay-third" id="social-links">
-            	<a href="#">
-					<i class="fa fa-facebook lay-hover-opacity" id="icon-social"></i>
-				</a>
-				<a href="#">
-					<i class="fa fa-twitter lay-hover-opacity" id="icon-social"></i>
-				</a>
-				<a href="#">
-					<i class="fa fa-instagram lay-hover-opacity" id="icon-social"></i>
-				</a>
+            	<div class="wrapper">
+				  <ul>
+				    <li class="facebook">
+				    	<a href="#">
+							<i class="fa fa-facebook fa-2x lay-hover-opacity"></i>
+						</a></li>
+				    <li class="twitter">
+				    	<a href="#">
+							<i class="fa fa-twitter fa-2x lay-hover-opacity"></i>
+						</a>
+					</li>
+				    <li class="instagram">
+						<a href="#">
+							<i class="fa fa-instagram fa-2x lay-hover-opacity"></i>
+						</a>
+				    </li>
+				  </ul>
+				</div>
             </div>
             <div class="lay-third" id="map">
             	<script>
