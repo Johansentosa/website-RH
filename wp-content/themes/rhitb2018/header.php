@@ -9,6 +9,7 @@
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">	
 	<link rel='stylesheet' href='./wp-content/themes/rhitb2018/bootstrap.css' type='text/css' media='all' />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<?php wp_head(); ?>
 </head>
 
@@ -67,7 +68,9 @@
 						<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'header','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>
 					</nav><!--/#nav-header-->
 				<?php endif; ?>
-				<?php echo do_shortcode('[wonderplugin_slider id=2]'); ?>
+				<?php if (is_page('Home')): ?>
+					<?php echo do_shortcode('[wonderplugin_slider id=2]'); ?>
+				<?php endif; ?>
 				
 			</div><!--/.container-inner-->
 		</div><!--/.container-->
@@ -79,4 +82,4 @@
 		<div class="container-inner">
 			<div class="main"><!-- 
 				<div class="main-inner group"> -->
-	<?php endif; ?>			
+	<?php endif; ?>

@@ -35,12 +35,79 @@
 
             <?php echo do_shortcode('[wonderplugin_slider id=1]'); ?>
 
-            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section><!--News-->
+
+<section>
+  <div class="containertesti" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <!-- Testimoni -->
+        <div class="inner-containerhome group">
+          <div id="testi-container">
+            <h1>Testimoni</h1>
+            <div class="w3-content w3-display-container">
+              <div class="mySlides" id="display-testimoni">
+                <div class="w3-twothird">
+                  <div class="w3-row" id="text-testi">Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa</div>
+                  <a href="./alumni" id="text-testi-link" class="w3-row">READ MORE</a>
+                </div>
+                <div class="w3-third">
+                  <img class="w3-row" src="https://www.w3schools.com/w3css/img_avatar1.png">
+                </div>
+              </div>
+              <div class="mySlides" id="display-testimoni">
+                <div class="w3-twothird">
+                  <div class="w3-row" id="text-testi">Progr</div>
+                  <a href="./alumni" id="text-testi-link" class="w3-row">READ MORE</a>
+                </div>
+                <div class="w3-third">
+                  <img class="w3-row" src="https://www.w3schools.com/w3css/img_avtar.jpg">
+                </div>
+              </div>
+              <div class="mySlides" id="display-testimoni">
+                <div class="w3-twothird">
+                  <div class="w3-row" id="text-testi">Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Re</div>
+                  <a href="./alumni" id="text-testi-link" class="w3-row">READ MORE</a>
+                </div>
+                <div class="w3-third">
+                  <img class="w3-row" src="https://www.w3schools.com/w3css/img_avatar3.png">
+                </div>
+              </div>
+              <div>
+                <button id="button-testi-kiri" class="w3-button w3-black w3-display-right" onclick="plusDivs(-1)">&#10094;</button>
+                <button id="button-testi-kanan" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+            </div>
+
+              <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+              }
+              </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <?php get_footer(); ?>
