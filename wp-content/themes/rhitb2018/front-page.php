@@ -83,8 +83,7 @@
                 <button id="button-testi-kanan" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
               </div>
             </div>
-
-              <script>
+            <script>
               var slideIndex = 1;
               showDivs(slideIndex);
 
@@ -102,12 +101,38 @@
                 }
                 x[slideIndex-1].style.display = "block";  
               }
-              </script>
+            </script>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<section>
+  <div class="containerpartner" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <!-- News -->
+        <div class="inner-containerpartner group">
+          <div id="partner-container">
+            <h1>Partner</h1>
+            <div class="display-partner w3-center">
+              <div class="w3-third">
+                <img class="w3-row" src="https://www.w3schools.com/w3css/img_avatar1.png">
+              </div>
+              <div class="w3-third">
+                <img class="w3-row" src="https://www.w3schools.com/w3css/img_avatar2.png">
+              </div>
+              <div class="w3-third">
+                <img class="w3-row" src="https://www.w3schools.com/w3css/img_avatar3.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!--News-->
 
 <?php get_footer(); ?>
