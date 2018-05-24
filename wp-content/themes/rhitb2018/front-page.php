@@ -14,7 +14,7 @@
             <div class="lay-half" id="inner-training">
               <h6>Indonesia, sebagai negara tropis, memiliki keaneka-ragaman Sumber Daya Hayati (SDH)  yang tinggi dan kaya akan sumber biomaterial potensial yang renewable dan sustainable. Permasalahan utama bangsa Indonesia saat ini adalah bahwa SDH yang kita miliki belum dapat secara optimal menjamin kesejahteraan bangsa. Untuk meningkatan manfaat dan produktivitas SDH-tropika dibutuhkan pengelolaan secara profesional agar dapat menjawab tantangan ekonomi nasional dan global. Karena itu, diperlukan sumber daya manusia (SDM) yang secara profesional...</h6>
               <a href="./latar-belakang/">
-                <button type="button" class="lay-button lay-red lay-margin-top">Read More</button>
+                <button type="button" class="lay-button lay-red lay-margin-top" style="border-radius: 10%;">Read More</button>
               </a>
             </div>
           </div>

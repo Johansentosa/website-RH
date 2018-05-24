@@ -1,16 +1,14 @@
 <?php get_header(); ?>
 
+<div class="container">
 <section class="content">
 	
 	<?php get_template_part('inc/page-title'); ?>
 	
 	<div class="pad group">
-		<?php if (!is_page('Staf Pengajar')): ?>
-
-		<?php endif; ?>	
-		
 
 		<?php while ( have_posts() ): the_post(); ?>
+		
 		
 			<article <?php post_class('group'); ?>>
 				
@@ -32,6 +30,7 @@
 	</div><!--/.pad-->
 	
 </section><!--/.content-->
+</div>
 
 <?php get_sidebar(); ?>
 
