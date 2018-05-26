@@ -49,10 +49,10 @@
 		
 		<section class="container" id="footer-bottom">
 			<div class="lay-third" id="text-footer">
-				<h4>ITB - Jatinangor. Gedung LABTEK 1A</h4>
-				<h5>Telepon: xxxxxxx</h5>
-				<h5>Fax: xxxxxxx</h5>
-				<h5>Email: xxxxxxx</h5>
+				<h4>ITB - Jatinangor. </h4>
+				<h5>Labtek 1A Kampus ITB Jatinangor, Jl. Let. Jen. Purn. Dr. (HC). Mashudi no. 1, Sumedang, Jawa Barat, Indonesia</h5>
+				<h5>Telepon: (022) 2511575</h5>
+				<h5>Fax: (022) 2534107</h5>
 				<h6>Institut Teknologi Bandung &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'hueman' ); ?></h6>
             </div>
             <div class="lay-third" id="social-links">
