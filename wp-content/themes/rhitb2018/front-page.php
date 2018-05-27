@@ -54,7 +54,8 @@
 						<div class="w3-content w3-display-container">
 							<div class="mySlides" id="display-testimoni">
 								<div class="w3-twothird">
-									<div class="w3-row" id="text-testi">Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa</div>
+									<div class="w3-row" id="text-testi">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+									</div>
 									<a href="./alumni" id="text-testi-link" class="w3-row">READ MORE</a>
 								</div>
 								<div class="w3-third">
@@ -63,7 +64,7 @@
 							</div>
 							<div class="mySlides" id="display-testimoni">
 								<div class="w3-twothird">
-									<div class="w3-row" id="text-testi">Progr</div>
+									<div class="w3-row" id="text-testi">"Proin rhoncus elit turpis, quis iaculis erat commodo vel. Nam commodo, nibh non fermentum rhoncus, velit nisl finibus lorem, nec malesuada erat dolor id dui. Integer viverra metus a pretium venenatis. Etiam fringilla nulla non metus mollis, quis vehicula mauris pharetra. Nunc a eros vel purus accumsan viverra. Mauris massa neque, auctor at sapien ut, pharetra porttitor velit."</div>
 									<a href="./alumni" id="text-testi-link" class="w3-row">READ MORE</a>
 								</div>
 								<div class="w3-third">
@@ -72,7 +73,7 @@
 							</div>
 							<div class="mySlides" id="display-testimoni">
 								<div class="w3-twothird">
-									<div class="w3-row" id="text-testi">Program Studi Rekayasa Hayati adalah........Program Studi Rekayasa Hayati adalah........Program Studi Re</div>
+									<div class="w3-row" id="text-testi">"Nulla facilisis semper bibendum. Cras mattis nulla felis, vel tempor nunc molestie eu. Pellentesque vitae pellentesque erat. Sed suscipit metus sed dui pharetra molestie. Pellentesque scelerisque, ante sed semper finibus, lectus leo fringilla enim, sit amet dignissim lectus purus id sem. Sed et porttitor sem. Fusce sed interdum metus. In hac habitasse platea dictumst. Nulla facilisi."</div>
 									<a href="./alumni" id="text-testi-link" class="w3-row">READ MORE</a>
 								</div>
 								<div class="w3-third">

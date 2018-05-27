@@ -316,7 +316,7 @@ input[type="url"] {width:300px;}
 
 .op5 {position:fixed;right:50%;bottom:10px;z-index:9999;}
 
-.op6 {position:inherit;right:10px;top:1px;z-index:9999;}
+.op6 {position:inherit;right:10px;top:0.5em;z-index:9999;}
 
 .op7 {position:fixed;right:10px;top:50%;z-index:9999;}
 
@@ -636,7 +636,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 
 /*  header : search
 /* ------------------------------------ */
-.toggle-search { color: #fff; font-size: 18px; line-height: 24px; cursor: pointer; padding: 18px 20px 8px 20px; display: block; position: absolute; right: 0; top: -50px;
+.toggle-search { color: #fff; font-size: 18px; line-height: 24px; cursor: pointer; padding: 15px 20px 8px 20px; display: block; position: absolute; right: 0; top: -50px;
 -webkit-box-shadow: -1px 0 0 rgba(255,255,255,0.1);
 box-shadow: -1px 0 0 rgba(255,255,255,0.1); }
 .toggle-search:hover,
@@ -750,7 +750,7 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.05), -1px 0 0 rgba(0,0,0,0.2); }
 /* ------------------------------------------------------------------------- *
  *  Section: Page
 /* ------------------------------------------------------------------------- */
-#page { padding-bottom: 2rem; }
+#page { padding-bottom: 5rem; padding-top: 2rem;}
 
 
 
@@ -1623,8 +1623,13 @@ html[xmlns] .slides { display: block; }
 
 /*  shortcode : hr
 /* ------------------------------------ */
-hr, .hr { border: 0; background: #eee; border-bottom: 2px solid #eee; height: 1px; margin: 30px 0; }
-
+hr, .hr {  
+	border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(211,211,211, 0.8), rgba(0, 0, 0, 0));
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
 
 /* ------------------------------------------------------------------------- *
  *  IE Fixes
@@ -1866,7 +1871,7 @@ h5>a {
 }
 
 #about-container, #news-container, #testi-container, #partner-container {
-	padding-top: 2rem;
+	padding-top: 1rem;
 	padding-bottom: 2rem;
 }
 
@@ -1878,7 +1883,7 @@ h5>a {
 
 .containerhome {
 	padding: 0;
-	background-color: #EAEAEA;
+	/*background-color: #EAEAEA;*/
 	padding-bottom: 10px;
 }
 
@@ -1889,7 +1894,7 @@ h5>a {
 
 .containertesti {
 	padding: 0;
-	background-color: #EAEAEA;
+	/*background-color: #EAEAEA;*/
 	padding-bottom: 10px;
 }
 
@@ -1980,6 +1985,8 @@ h5>a {
 	background-color: #023878;
 	margin: 0 !important;
 	width: 100%;
+	padding-top: 0.2rem;
+	padding-bottom: 0.5rem;
 }
 
 #after-navbar-slider {
@@ -1987,9 +1994,9 @@ h5>a {
 	margin: 0 !important;
 	width: 100%;
 	padding-top: 3rem;
-	padding-bottom: 2rem;
+	padding-bottom: 3rem;
 }
-asdasd
+
 #text-footer {
 	color: #fff;
 	margin: 20px 0 !important;

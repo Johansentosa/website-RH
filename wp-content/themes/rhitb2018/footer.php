@@ -41,7 +41,7 @@
 				</nav><!--/#nav-footer-->
 				<?php endif; ?>
 
-				<section class="container" id="footer-bottom" style="padding-top: 10px">
+				<section class="container" id="footer-bottom" style="padding-top: 25px">
 					<div class="lay-third" id="text-footer">
 						<h4>ITB - Jatinangor. Gedung LABTEK 1A</h4>
 						<h5>Telepon: xxxxxxx</h5>
