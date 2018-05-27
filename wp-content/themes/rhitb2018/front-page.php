@@ -25,6 +25,7 @@
 	</div>
 </section><!--Home-->
 
+<!--News-->
 <section>
 	<div class="containernews" id="page">
 		<div class="container-inner" style="padding-bottom: 2rem;">
@@ -34,13 +35,14 @@
 					<div id="news-container">
 						<h1 class="text-center">Berita</h1>
 						<hr>
-						<?php echo do_shortcode('[wonderplugin_slider id=1]'); ?>
+						<?php //echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
+						<?php echo do_shortcode('[wcp-carousel id="567" order="DESC" orderby="date" count="9"] '); ?>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</section><!--News-->
+</section>
 
 <section>
 	<div class="containertesti" id="page">
