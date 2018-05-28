@@ -28,12 +28,12 @@
 <!--News-->
 <section>
 	<div class="containernews" id="page">
-		<div class="container-inner" style="padding-bottom: 2rem;">
+		<div class="container-inner" style="padding-bottom: 0rem;">
 			<div class="main">
 				<!-- News -->
 				<div class="inner-containerhome group">
 					<div id="news-container">
-						<h1 class="text-center">Berita</h1>
+						<h1 class="text-center">Berita Terkini</h1>
 						<hr>
 						<?php //echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
 						<?php echo do_shortcode('[wcp-carousel id="567" order="DESC" orderby="date" count="9"] '); ?>
