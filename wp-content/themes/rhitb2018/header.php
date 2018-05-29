@@ -8,10 +8,13 @@
 	<title><?php wp_title(''); ?></title>
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">	
-	<link rel='stylesheet' href='./wp-content/themes/rhitb2018/bootstrap.css' type='text/css' media='all' />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
 	<link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 </head>
 
@@ -66,13 +69,13 @@
 				</div><!--/.container-inner-->
 			</div>
 
+			<?php if (is_page('Home')): ?>
 			<div class="container group" id="after-navbar-slider" style="padding-top: 2.5rem !important; padding-bottom: 3rem !important;">
 				<div class="container-inner">
-					<?php if (is_page('Home')): ?>
-						<?php echo do_shortcode('[wonderplugin_slider id=2]'); ?>
-					<?php endif; ?>
+					<?php echo do_shortcode('[wonderplugin_slider id=2]'); ?>
 				</div><!--/.container-inner-->
 			</div><!--/.container-->
+			<?php endif; ?>
 		</header><!--/#header-->
 
 		<?php if (!is_page('Home')): ?>

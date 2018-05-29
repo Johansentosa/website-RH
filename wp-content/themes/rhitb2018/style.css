@@ -1629,7 +1629,7 @@ hr {
     border: 0;
     border-top: 3px solid #00408b;
     margin-top: 1.5rem; 
-    padding-bottom: 3rem; 
+    padding-bottom: 2.5rem; 
     margin-right: 48%;
     margin-left: 48%;
 }
@@ -1875,17 +1875,17 @@ h5>a {
 }
 
 .containernews {
-	padding-top: 4rem;
-	padding-bottom: 5rem;
+	padding-top: 1rem;
+	padding-bottom: 3rem;
 }
 
 .containertesti {
 	padding-top: 4rem;
-	padding-bottom: 5rem;
+	padding-bottom: 2rem;
 }
 
 .containerpartner {
-	padding-top: 4rem;
+	padding-top: 3rem;
 }
 
 #about-container>h1 {
@@ -1919,7 +1919,10 @@ h5>a {
 
 #news-container {
 	background-color: rgba(232, 232, 232, 0.85);
-	padding: 2.5rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	padding-top: 1.5rem;
+	padding-bottom: 2.5rem;
 }
 
 #text-testi {
@@ -1948,8 +1951,7 @@ h5>a {
 .display-partner {
 	width: 100%;
 	height: 200px;
-	margin: 20px 0;
-	padding: 30px;
+	margin-bottom: 3rem;
 }
 
 .display-partner>div>img {
@@ -2287,12 +2289,10 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
 
 .cd-fixed-bg.cd-fixed-bg--1 {
 	background-image: url("http://starisor.rs/wp-content/uploads/2016/02/laboratory-1149152_1920-1140x400.jpg");
-	min-height: 40vw;
 }
 
 .cd-fixed-bg.cd-fixed-bg--2 {
 	background-image: url("https://home.usm.edu/sites/default/files/2017-05/Chemistry%20Social%20Preview%201200x600-min.jpg");
-	min-height: 32vw;
 }
 
 @media only screen and (min-width: 1170px) {
