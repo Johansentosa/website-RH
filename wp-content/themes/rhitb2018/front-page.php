@@ -50,6 +50,7 @@
 	</div>
 </section>
 
+
 <section>
 	<div class="containertesti" id="page">
 		<div class="container-inner">
@@ -60,7 +61,9 @@
 						<h1 class="text-center">Testimoni</h1>
 						<hr>
 						<div class="w3-content w3-display-container">
-							<div class="mySlides" id="display-testimoni">
+						<?php //echo do_shortcode('[testimonial_view id="1"]'); ?>
+						<?php echo do_shortcode('[stars_testimonials  total="2" style="8"  cols="2" order="DESC" title_color="grey"]  '); ?>
+							<!--<div class="mySlides" id="display-testimoni">
 								<div class="w3-twothird">
 									<div class="w3-row" id="text-testi">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 									</div>
@@ -92,6 +95,7 @@
 								<button id="button-testi-kiri" class="w3-button w3-black" onclick="plusDivs(-1)">&#10094;</button>
 								<button id="button-testi-kanan" class="w3-button w3-black" onclick="plusDivs(1)">&#10095;</button>
 							</div>
+							-->
 						</div>
 						<script>
 							var slideIndex = 1;

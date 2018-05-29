@@ -66,7 +66,7 @@
 									<a href="#">
 										<i class="fa fa-instagram fa-2x lay-hover-opacity"></i>
 									</a>
-								</li>
+								
 							</ul>
 						</div>
 					</div>
