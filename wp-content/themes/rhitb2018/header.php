@@ -10,6 +10,8 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">	
 	<link rel='stylesheet' href='./wp-content/themes/rhitb2018/bootstrap.css' type='text/css' media='all' />
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
@@ -64,7 +66,7 @@
 				</div><!--/.container-inner-->
 			</div>
 
-			<div class="container group" id="after-navbar-slider">
+			<div class="container group" id="after-navbar-slider" style="padding-top: 2.5rem !important; padding-bottom: 3rem !important;">
 				<div class="container-inner">
 					<?php if (is_page('Home')): ?>
 						<?php echo do_shortcode('[wonderplugin_slider id=2]'); ?>

@@ -27,19 +27,25 @@
 
 <!--News-->
 <section>
-	<div class="containernews" id="page">
-		<div class="container-inner" style="padding-bottom: 0rem;">
-			<div class="main">
-				<!-- News -->
-				<div class="inner-containerhome group">
-					<div id="news-container">
-						<h1 class="text-center">Berita Terkini</h1>
-						<hr>
-						<?php //echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
-						<?php echo do_shortcode('[wcp-carousel id="567" order="DESC" orderby="date" count="9"] '); ?>
+	<div class="cd-fixed-bg cd-fixed-bg--1">
+		<div class="cd-fixed-bg__content">
+			<span>
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+					<div class="containernews" id="page">
+						<div class="container-inner" style="padding-bottom: 0rem;">
+							<div class="main">
+								<div class="inner-containerhome group">
+									<div id="news-container">
+										<h1 class="text-center">Berita Terkini</h1>
+										<hr>
+										<?php echo do_shortcode('[wcp-carousel id="567" order="DESC" orderby="date" count="9"] '); ?>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
+				</svg>
+			</span>
 		</div>
 	</div>
 </section>
@@ -115,29 +121,37 @@
 
 <section>
 	<div class="containerpartner" id="page">
-		<div class="container-inner">
-			<div class="main">
-			<!-- News -->
-				<div class="inner-containerpartner group">
-					<div id="partner-container">
-						<h1 class="text-center">Partner</h1>
-						<hr>
-						<div class="display-partner w3-center">
-							<div class="w3-third">
-								<img class="w3-row" src="https://www.w3schools.com/w3css/img_avatar1.png">
-							</div>
-							<div class="w3-third">
-								<img class="w3-row" src="https://www.w3schools.com/w3css/img_avatar2.png">
-							</div>
-							<div class="w3-third">
-								<img class="w3-row" src="https://www.w3schools.com/w3css/img_avatar3.png">
+		<div class="cd-fixed-bg cd-fixed-bg--2">
+			<div class="cd-fixed-bg__content">
+				<span>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+						<div class="container-inner">
+							<div class="main">
+							<!-- News -->
+								<div class="inner-containerpartner group">
+									<div id="partner-container">
+										<h1 class="text-center">Partner</h1>
+										<hr>
+										<div class="display-partner w3-center">
+											<div class="w3-third">
+												<img class="w3-row" src="https://www.w3schools.com/w3css/img_avatar1.png">
+											</div>
+											<div class="w3-third">
+												<img class="w3-row" src="https://www.w3schools.com/w3css/img_avatar2.png">
+											</div>
+											<div class="w3-third">
+												<img class="w3-row" src="https://www.w3schools.com/w3css/img_avatar3.png">
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div>
+					</svg>
+				</span>
 			</div>
 		</div>
 	</div>
-</section><!--News-->
+</section>
 
 <?php get_footer(); ?>
