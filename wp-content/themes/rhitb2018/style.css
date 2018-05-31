@@ -757,7 +757,7 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.05), -1px 0 0 rgba(0,0,0,0.2); }
 /* ------------------------------------------------------------------------- *
  *  Section: Footer
 /* ------------------------------------------------------------------------- */
-#footer { background: #00408b; color: #777; width: 100%; }
+#footer { background: #0099cc; color: #777; width: 100%; }
 #footer a { color: #777; }
 #footer a:hover { color: #ccc; }
 #footer .pad { padding-bottom: 30px; }
@@ -768,7 +768,7 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.05), -1px 0 0 rgba(0,0,0,0.2); }
 
 #footer-widgets{ padding-top: 20px; }
 
-#footer-bottom { background: #00408b; }
+#footer-bottom { background: #0099cc; }
 #footer-bottom .pad { padding-top: 30px; }
 #footer-bottom a { color: #0cf; /* color: rgba(255,255,255,0.7); */ }
 #footer-bottom a:hover { color: #fff; }
@@ -1627,7 +1627,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 3px solid #00408b;
+    border-top: 3px solid #0099cc;
     margin-top: 1.5rem; 
     padding-bottom: 2.5rem; 
     margin-right: 48%;
@@ -1667,7 +1667,7 @@ body.ie8,
 }
 
 #nav-topbar.nav-container {
-    background: none repeat scroll 0 0 #023878;
+    background: none repeat scroll 0 0 #33aae1;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
@@ -1776,7 +1776,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); }
 }*/
 
 #footer-bottom #back-to-top {
-    background: none repeat scroll 0 0 #00408b;
+    background: none repeat scroll 0 0 #0099cc;
     border-radius: 5px;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) inset;
     color: #fff;
@@ -1789,7 +1789,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); }
 }
 
 #footer-bottom {
-    background: none repeat scroll 0 0 #00408b;
+    background: none repeat scroll 0 0 #0099cc;
     height: inherit;
 }
 
@@ -1964,13 +1964,13 @@ h5>a {
 }
 
 #before-navbar {
-	background-color: #00408b;
+	background-color: #0099cc;
 	margin: 0 !important;
 	width: 100%;
 }
 
 #after-navbar {
-	background-color: #00408b;
+	background-color: #0099cc;
 	margin: 0 !important;
 	width: 100%;
 	padding-top: 0.2rem;
@@ -2012,14 +2012,14 @@ h5>a {
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
-  border: 5px solid #D8E2DC;
-  background-color: #D8E2DC;
+  border: 5px solid #f0f0f0;
+  background-color: #f0f0f0;
   float: left;
   transition: all 0.5s ease;
 }
 
 .wrapper ul li .fa {
-  color: #023878;
+  color: #33aae1;
   margin-top: 20px;
   transition: all 0.5s ease;
 }
