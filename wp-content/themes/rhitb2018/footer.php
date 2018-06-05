@@ -43,14 +43,23 @@
 
 				<section class="container" id="footer-bottom" style="padding-top: 25px">
 					<div class="lay-third" id="text-footer">
-						<h4>Labtek 1A Kampus ITB Jatinangor, </h4>
-						<h5>Jl. Let. Jen. Purn. Dr. (HC). Mashudi no. 1, Sumedang, Jawa Barat, Indonesia</h5>
-						<h5>Telepon: (022) 2511575</h5>
-						<h5>Fax: (022) 2534107</h5>
-						<h6>Institut Teknologi Bandung &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'hueman' ); ?></h6>
+						<div>
+						<h4 style="color:white"><strong>Labtek 1A Kampus ITB Jatinangor,</strong></h4>
+							<p>Jl. Let. Jen. Purn. Dr. (HC). Mashudi no. 1, Sumedang, Jawa Barat, Indonesia <br></p>
+							<p>Telp: (022) 2511575<br> 
+							Fax: (022) 2534107</p><br>
+						</div>
+						<div >
+								<a href="#" class="btn btn-dark" style="border-radius:50%; background-color:#3a3a3a;"><i class="fa fa-facebook fa-lg" style="color:white"></i></a>
+								<a href="#" class="btn btn-dark" style="border-radius:50%; background-color:#3a3a3a"><i class="fa fa-instagram fa-lg" style="color:white"></i></a>
+								<a href="#" class="btn btn-dark" style="border-radius:50%; background-color:#3a3a3a"><i class="fa fa-twitter fa-lg" style="color:white"></i></a>
+							</div>
 					</div>
+					
 					<div class="lay-third" id="social-links">
+						<!--Social media
 						<div class="wrapper">
+						
 							<ul>
 								<li class="facebook">
 									<a href="#">
@@ -69,8 +78,9 @@
 								
 							</ul>
 						</div>
+						-->
 					</div>
-					<div class="lay-third" id="map">
+					<div align="right" class="lay-third" id="map" >
 						<script>
 							function initMap() {
 								var uluru = {lat: -6.928894, lng: 107.768387};
@@ -87,7 +97,15 @@
 						<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDY0UYkMfSUZEjXXH-rzm-4qrExorm9Yio&callback=initMap"></script>
 					</div>			
 				</section><!--/.container-->
+				<section id="footer-bottom" style="background-color:#20579b; padding:10px 50px 10px 0px; color:white">
+					<div class="container" align="right" style="padding-right:30px">
+						
+							<p>&copy; <?php echo date( 'Y' ); ?> Institut Teknologi Bandung -  <?php _e( 'All Rights Reserved.', 'hueman' ); ?> </p>
+						
+					</div>
+				</section>
 			</footer><!--/#footer-->
+			
 		</div><!--/#wrapper-->
 		<?php wp_footer(); ?>
 	</body>
