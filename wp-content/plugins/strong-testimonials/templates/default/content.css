@@ -93,7 +93,14 @@ Thanks https://css-tricks.com/minimum-paragraph-widths/
   margin-top: 0;
   padding-left: 40px;
   text-align: left;
+  font-size: 24px;
 }
+
+.strong-view .testimonial-content,
+{
+    font-size: 24px;
+}
+
 .strong-view.default .testimonial-content p:first-of-type {
   margin-top: 0;
   padding-top: 0;
@@ -109,8 +116,9 @@ Thanks https://css-tricks.com/minimum-paragraph-widths/
   float: left;
 }
 .strong-view.default .testimonial-image img {
-  background: none repeat scroll 0 0 #FFFFFF;
-  border: 1px solid #EFEFEF;
+  width:200px;
+  height:200px;
+  object-fit: cover;
   padding: 6px;
   margin: 0 auto;
 }

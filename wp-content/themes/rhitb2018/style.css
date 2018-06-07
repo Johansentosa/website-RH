@@ -1634,6 +1634,11 @@ hr {
     margin-left: 48%;
 }
 
+.hr-left{
+	margin-left: 0%;
+    margin-right: 95% !important; 
+}
+
 /* ------------------------------------------------------------------------- *
  *  IE Fixes
 /* ------------------------------------------------------------------------- */
@@ -2005,22 +2010,22 @@ h5>a {
 }
 
 .wrapper ul li {
-  width: 75px;
-  height: 75px;
-  line-height: 75px;
-  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+  margin: 0 15px;
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
-  border: 5px solid #f0f0f0;
-  background-color: #f0f0f0;
+  border: 5px solid #3a3a3a;
+  background-color: #3a3a3a;
   float: left;
   transition: all 0.5s ease;
 }
 
 .wrapper ul li .fa {
-  color: #33aae1;
-  margin-top: 20px;
+  /*color: #33aae1;*/
+  color: white;
   transition: all 0.5s ease;
 }
 
@@ -2064,12 +2069,12 @@ h5>a {
 
 #social-links {
 	padding: 12px 24px!important;
-	margin: 3rem 0 !important;
+	margin: 1rem 10% 10% !important;
 }
 
 #social-links>a {
-	padding: 12px 30px!important;
-    font-size: 24px!important;
+	padding: 1px 3px!important;
+    font-size: 10px!important;
     text-decoration: none;
 }
 

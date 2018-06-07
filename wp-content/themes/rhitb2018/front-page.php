@@ -7,8 +7,8 @@
 				<!-- Home -->
 				<div class="inner-containerhome group">
 					<div id="about-container">
-						<h1 class="text-center">About Bioengineering</h1>
-						<hr>
+						<h1 class="text-left"><strong>About Bioengineering</strong></h1>
+						<hr class="hr-left">
 						<div class="lay-half" id="video-about">
 							<iframe width="427" height="240" src="https://www.youtube.com/embed/oWy8z4W4R5U" class="lay-hover-opacity" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 						</div>
@@ -50,18 +50,17 @@
 	</div>
 </section>
 
-
-<section>
+<section style="background-color:#5b5b5b">
 	<div class="containertesti" id="page">
 		<div class="container-inner">
 			<div class="main">
 				<!-- Testimoni -->
-				<div class="inner-containerhome group">
+				<div class="inner-containerhome group" >
 					<div id="testi-container">
-						<h1 class="text-center">Testimoni</h1>
+						<h1 class="text-center" style="color:white">Testimoni</h1>
 						<hr>
-						<div class="w3-content w3-display-container">
-						<?php echo do_shortcode('[testimonial_view id="1"]'); ?>
+						<div >
+						<?php echo do_shortcode('[testimonial_view id="1" count="3" ]'); ?>
 						<?php //echo do_shortcode('[stars_testimonials  total="2" style="8"  cols="2" order="DESC" title_color="grey"]  '); ?>
 							
 						</div>
@@ -73,12 +72,11 @@
 	</div>
 </section>
 
-<section>
+<section class="cd-fixed-bg cd-fixed-bg--2">
 	<div class="containerpartner" id="page">
-		<div class="cd-fixed-bg cd-fixed-bg--2">
+		<div>
 			<div class="cd-fixed-bg__content">
 				<span>
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
 						<div class="container-inner">
 							<div class="main">
 							<!-- News -->
@@ -101,7 +99,7 @@
 								</div>
 							</div>
 						</div>
-					</svg>
+				
 				</span>
 			</div>
 		</div>

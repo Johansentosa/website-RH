@@ -22,7 +22,7 @@
 	<div id="wrapper">
 		<header id="header">
 			<?php if (has_nav_menu('topbar')): ?>
-			<nav class="nav-container group" id="nav-topbar">
+			<nav class="nav-container group" id="nav-topbar" style="background-color:#5b5b5b">
 				<div class="nav-toggle"><i class="fa fa-bars"></i></div>
 				<div class="nav-text"><!-- put your mobile menu text here --></div>
 				<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'topbar','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>
@@ -79,8 +79,8 @@
 		</header><!--/#header-->
 
 		<?php if (!is_page('Home')): ?>
-		<div class="containerall" id="page">
+		<div class="containerall cd-fixed-bg cd-fixed-bg--2" id="page">
 			<div class="container-inner">
-				<div class="main"><!-- 
+				<div class="main" ><!-- 
 					<div class="main-inner group"> -->
 		<?php endif; ?>

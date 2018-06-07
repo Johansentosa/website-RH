@@ -43,42 +43,41 @@
 
 				<section class="container" id="footer-bottom" style="padding-top: 25px">
 					<div class="lay-third" id="text-footer">
-						<div>
 						<h4 style="color:white"><strong>Labtek 1A Kampus ITB Jatinangor,</strong></h4>
 							<p>Jl. Let. Jen. Purn. Dr. (HC). Mashudi no. 1, Sumedang, Jawa Barat, Indonesia <br></p>
 							<p>Telp: (022) 2511575<br> 
 							Fax: (022) 2534107</p><br>
-						</div>
+						<!--
 						<div >
 								<a href="#" class="btn btn-dark" style="border-radius:50%; background-color:#3a3a3a;"><i class="fa fa-facebook fa-lg" style="color:white"></i></a>
 								<a href="#" class="btn btn-dark" style="border-radius:50%; background-color:#3a3a3a"><i class="fa fa-instagram fa-lg" style="color:white"></i></a>
 								<a href="#" class="btn btn-dark" style="border-radius:50%; background-color:#3a3a3a"><i class="fa fa-twitter fa-lg" style="color:white"></i></a>
-							</div>
+							</div> -->
 					</div>
 					
-					<div class="lay-third" id="social-links">
-						<!--Social media
-						<div class="wrapper">
+					<div align="center" class="lay-third" id="text-footer">
+						<h4><strong>FOLLOW US</strong></h4>
+						<div class="wrapper" id="social-links">
 						
 							<ul>
 								<li class="facebook">
 									<a href="#">
-										<i class="fa fa-facebook fa-2x lay-hover-opacity"></i>
+										<i class="fa fa-facebook fa-lg lay-hover-opacity"></i>
 									</a>
 								</li>
 								<li class="twitter">
 									<a href="#">
-										<i class="fa fa-twitter fa-2x lay-hover-opacity"></i>
+										<i class="fa fa-twitter fa-lg lay-hover-opacity"></i>
 									</a>
 								</li>
 								<li class="instagram">
 									<a href="#">
-										<i class="fa fa-instagram fa-2x lay-hover-opacity"></i>
+										<i class="fa fa-instagram fa-lg lay-hover-opacity"></i>
 									</a>
 								
 							</ul>
 						</div>
-						-->
+						
 					</div>
 					<div align="right" class="lay-third" id="map" >
 						<script>
@@ -96,8 +95,8 @@
 						</script>
 						<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDY0UYkMfSUZEjXXH-rzm-4qrExorm9Yio&callback=initMap"></script>
 					</div>			
-				</section><!--/.container-->
-				<section id="footer-bottom" style="background-color:#20579b; padding:10px 50px 10px 0px; color:white">
+				</section><!--/.container#20579b-->
+				<section id="footer-bottom" style="background-color:#5b5b5b; padding:10px 50px 10px 0px; color:white">
 					<div class="container" align="right" style="padding-right:30px">
 						
 							<p>&copy; <?php echo date( 'Y' ); ?> Institut Teknologi Bandung -  <?php _e( 'All Rights Reserved.', 'hueman' ); ?> </p>
